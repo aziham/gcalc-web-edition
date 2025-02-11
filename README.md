@@ -20,7 +20,7 @@ I've always admired the simplicity and efficiency of Google’s calculator, but 
 
 To ensure accuracy in replicating the design, I used a reference screenshot from Google’s Android calculator:
 
-<img src="./g-calc-reference.png" alt="Google Calculator Reference" width="400" />
+<img src="./g-calc-reference.png" alt="Google Calculator Reference" width="300" />
 
 ## How It Works
 
