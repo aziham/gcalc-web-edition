@@ -22,6 +22,12 @@ To ensure accuracy in replicating the design, I used a reference screenshot from
 
 <img src="./g-calc-reference.png" alt="Google Calculator Reference" width="300" />
 
+## Screenshots of This Project
+
+Here’s how the current web version looks:
+
+<img src="./screenshots/01.png" alt="Web Calculator Screenshot 1" width="265" /> <img src="./screenshots/02.png" alt="Web Calculator Screenshot 2" width="265" /> <img src="./screenshots/03.png" alt="Web Calculator Screenshot 3" width="265" />
+
 ## How It Works
 
 ### 1. Tokenization
