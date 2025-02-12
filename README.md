@@ -20,13 +20,13 @@ I've always admired the simplicity and efficiency of Google’s calculator, but 
 
 To ensure accuracy in replicating the design, I used a reference screenshot from Google’s Android calculator:
 
-<img src="./g-calc-reference.png" alt="Google Calculator Reference" width="300" />
+<img src="./docs/screenshots/g-calc-reference.png" alt="Google Calculator Reference" width="300" />
 
 ## Screenshots of This Project
 
 Here’s how the current web version looks:
 
-<img src="./screenshots/01.png" alt="Web Calculator Screenshot 1" width="265" /> <img src="./screenshots/02.png" alt="Web Calculator Screenshot 2" width="265" /> <img src="./screenshots/03.png" alt="Web Calculator Screenshot 3" width="265" />
+<img src="./docs/screenshots/01.png" alt="Web Calculator Screenshot 1" width="265" /> <img src="./docs/screenshots/02.png" alt="Web Calculator Screenshot 2" width="265" /> <img src="./docs/screenshots/03.png" alt="Web Calculator Screenshot 3" width="265" />
 
 ## How It Works
 
@@ -69,11 +69,13 @@ JavaScript isn’t the most reliable when it comes to floating-point arithmetic.
 To get started with the project, follow these steps:
 
 - Clone the repository
+
 ```bash
 git clone https://github.com/aziham/gcalc-web-edition.git
 ```
 
 - Navigate into the project directory
+
 ```bash
 cd gcalc-web-edition
 ```
