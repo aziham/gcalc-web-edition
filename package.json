@@ -1,0 +1,35 @@
+{
+  "name": "gcalc-web-edition-react",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A web-based calculator inspired by Google’s Android calculator, built with HTML, CSS, and JavaScript. This project was a deep dive into not just UI replication but also crafting a robust mathematical engine that can handle complex expressions accurately.",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build",
+    "nc": "new-component"
+  },
+  "author": "Hamza Aziane",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aziham/gcalc-web-edition.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aziham/gcalc-web-edition/issues"
+  },
+  "homepage": "https://github.com/aziham/gcalc-web-edition#readme",
+  "dependencies": {
+    "lucide-react": "^0.475.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.20.1",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.15.0",
+    "new-component": "^6.0.0",
+    "vite": "^6.1.0"
+  }
+}
