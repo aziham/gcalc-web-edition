@@ -1,6 +1,10 @@
 import styles from './Display.module.css';
 
-function Display() {
+function Display({ expression, setExpression }) {
+  const handleChange = (e) => {
+    setExpression(e.target.value);
+  };
+
   return (
     <div className={styles.display}>
       <input
@@ -8,6 +12,8 @@ function Display() {
         autoFocus
         type='text'
         id='expression'
+        value={expression}
+        onChange={handleChange}
       />
     </div>
   );
