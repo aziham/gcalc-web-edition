@@ -1,12 +1,12 @@
 import '../../styles/global-styles.css';
 
 import PhoneFrame from '../PhoneFrame';
-import CalculatorWrapper from '../CalculatorWrapper';
+import Calculator from '../Calculator';
 
 function App() {
   return (
     <PhoneFrame>
-      <CalculatorWrapper />
+      <Calculator />
     </PhoneFrame>
   );
 }
