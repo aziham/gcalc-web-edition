@@ -1,0 +1,35 @@
+.button {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  transition: border-radius 100ms ease, background-color 150ms ease;
+}
+
+.digit,
+.dicimalPoint,
+.delete {
+  background-color: #303336;
+  color: #e3e3e3;
+}
+
+.equals {
+  background-color: #d3e3fd;
+}
+
+.operator,
+.parentheses {
+  background-color: #73bff2;
+  color: #001d35;
+}
+
+.clear {
+  background-color: #c4eed0;
+  color: #072711;
+}
