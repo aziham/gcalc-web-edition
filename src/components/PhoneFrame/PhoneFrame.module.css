@@ -1,0 +1,74 @@
+.phoneFrame {
+  position: relative;
+  margin: 7rem auto;
+  width: 40rem;
+  height: 76rem;
+  background-color: #000000;
+  border-radius: 3.5rem;
+}
+
+.notch {
+  position: absolute;
+  background-color: inherit;
+  width: 21rem;
+  height: 3rem;
+  border-bottom-left-radius: 2.4rem;
+  border-bottom-right-radius: 2.4rem;
+  top: 1rem;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+}
+
+.notch::before {
+  position: absolute;
+  content: '';
+  width: 0.8rem;
+  height: 0.8rem;
+  background: radial-gradient(
+    circle at left bottom,
+    rgba(0, 0, 0, 0) 0px,
+    rgba(0, 0, 0, 0) 70%,
+    rgb(0, 0, 0) 70%,
+    rgb(0, 0, 0) 100%
+  );
+  top: 0;
+  left: -0.8rem;
+}
+
+.notch::after {
+  position: absolute;
+  content: '';
+  width: 0.8rem;
+  height: 0.8rem;
+  background: radial-gradient(
+    circle at right bottom,
+    rgba(0, 0, 0, 0) 0px,
+    rgba(0, 0, 0, 0) 70%,
+    rgb(0, 0, 0) 70%,
+    rgb(0, 0, 0) 100%
+  );
+  top: 0;
+  right: -0.8rem;
+}
+
+.speaker {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 0.9rem;
+  background-color: hsl(210, 5%, 10%);
+  border-radius: 1rem;
+  width: 6rem;
+  height: 0.6rem;
+}
+
+.sensor {
+  position: absolute;
+  left: 73%;
+  top: 0.9rem;
+  background-color: hsl(202, 79%, 25%);
+  border-radius: 100%;
+  width: 0.6rem;
+  height: 0.6rem;
+}
